@@ -76,6 +76,8 @@ def compute_randwalk():
 
 fetch_data()
 connect(supporters[0].id, againsters[0].id)
+print "连接高度节点后："
 print compute_randwalk()
-connect(supporters[len(supporters) - 1].id, againsters[0].id)
+connect(supporters[5].id, againsters[0].id)
+print "连接低度节点后："
 print compute_randwalk()
