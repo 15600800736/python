@@ -4,8 +4,7 @@ import re
 from bs4 import BeautifulSoup
 from time import sleep
 import pymysql
-from pymysql.err import InternalError
-import algothrim.Block
+
 list = []
 files = ""
 last_len = 0
@@ -43,21 +42,15 @@ def spider_craw():
         global  last_len
         last_len = len((list))
     insert()
-i = 884         
+i = 884
 
 def parse(data):
-    # fh = open("F:\\text.txt", "r")
-    # data = fh.read()
-    # fh.close()
     soup = BeautifulSoup(data, "lxml")
     outers = soup.select(".WB_cardwrap")
     for outer in outers:
-
-        # block = algothrim.Block.block()
         username = None
         content = ""
         retweet = None
-
         html = "<html><body>" + str(outer) + "</body></html>"
         outer_soup = BeautifulSoup(html, "lxml")
         # 提取转发数
@@ -75,12 +68,9 @@ def parse(data):
                     retweet = retweet_num
         # 提取内容
         divs = outer_soup.select(".feed_content")
-        # fh = open("F:\\temp.txt", "a")
-        # data = ""
         for div in divs:
             for index, node in enumerate(div.children):
                 if index == 1:
-                    # data = data + "nickname:" + str(node["nick-name"]) + "\n"
                     username = str(node["nick-name"])
                 else:
                     try:
@@ -97,56 +87,18 @@ def parse(data):
                     reg_t = re.compile("\\\\t")
                     content = reg_n.sub("", content)
                     content = reg_t.sub("", content)
-                    # content = content.decode("unicode-escape")
-                    # data = data + "content" + str(child) + "\n"
-                    # print "--------------------------------------"
-
-        # block.username = username
-        # block.content = content
-        # block.retweed = retweet
         if username is not None:
             block = (i,username,content,retweet)
             global i
             i = i + 1
             global list
             list.append(block)
-            # fh.write(data)
-
-
 def insert():
     conn = pymysql.connect(host="127.0.0.1", port=3306, user="root", passwd="pentatonix0215", db="spider",
                            charset="utf8mb4")
     cur = conn.cursor()
-    # f = open("F:\\temp.txt").read()
-    # reg_content = re.compile("name:([\d\D]+?)nick")
-    # content = reg_content.findall(f)
-    # list = []
-    # for index, one in enumerate(list):
-        # 提取name
-        # reg_name = re.compile("(.+?)\n")
-        # name = reg_name.search(one).group(1)
-        # 提取tex t
-        # reg_text = re.compile(".+?\n([\d\D]*)")
-        # text = reg_text.search(one).group(1)
-        # 去掉content
-        # reg_content = re.compile("content")
-        # text = reg_content.sub("", text)
-        # text = text.encode("utf-8").encode("unicode-escape")
-        # 去掉换行符、空格
-        # reg_n = re.compile("\\\\n")
-        # reg_t = re.compile("\\\\t")
-        # text = reg_n.sub("", text)
-        # text = reg_t.sub("", text)
-        # text = text.decode("unicode-escape")
-        # 加入
-        # block = (index, name, text)
-        # list.append(block)
-        # print text, "--------------------------------"
     sql = "INSERT INTO datas_second(id,username,content,retweet) VALUES(%s,%s,%s,%s)"
-    # print len(list)
-    # try:
     cur.executemany(sql, list)
     conn.commit()
-    # except InternalError:
-    #     pass
+
 spider_craw()
