@@ -8,6 +8,8 @@ import pymysql
 list = []
 files = ""
 last_len = 0
+
+
 def spider_craw():
     headers = {
         'User-Agent': 'Mozilla/5.0(Windows;U;Windows NT 6.1;en-US;rv:1.9.1.6)'
@@ -25,24 +27,26 @@ def spider_craw():
                   'SWB=usrmdinst_4; WBStorage=02e13baf68409715|undefined '
     }
     data = ""
-    for i in range(1, 20):
-        url = 'http://s.weibo.com/weibo/TOP%25E9%2581%2593%25E6%25AD%2589&page=' + str(i)
+    for i in range(1, 26):
+        url = 'http://s.weibo.com/weibo/%E5%BC%A0%E6%9D%B0%E5%9E%83%E5%9C%BE&page=' + str(i)
         request = urllib2.Request(url=url, headers=headers)
         page = urllib2.urlopen(request).read()
         global data
         data = page
-        # print data
         sleep(5)
         parse(data)
-        global  list
-        if len(list) == last_len:
+        global list
+        if len(list) == last_len or len(list) == 884:
             print "has caught! index is:" + str(len(list) - 1)
             break;
         print str(i) + ":" + str(len(list))
-        global  last_len
-        last_len = len((list))
+        global last_len
+        last_len = len(list)
     insert()
-i = 884
+
+
+i = 0
+
 
 def parse(data):
     soup = BeautifulSoup(data, "lxml")
@@ -88,17 +92,20 @@ def parse(data):
                     content = reg_n.sub("", content)
                     content = reg_t.sub("", content)
         if username is not None:
-            block = (i,username,content,retweet)
+            block = (i, username, content, retweet, -1)
             global i
             i = i + 1
             global list
             list.append(block)
+
+
 def insert():
     conn = pymysql.connect(host="127.0.0.1", port=3306, user="root", passwd="pentatonix0215", db="spider",
                            charset="utf8mb4")
     cur = conn.cursor()
-    sql = "INSERT INTO datas_second(id,username,content,retweet) VALUES(%s,%s,%s,%s)"
+    sql = "INSERT INTO datas_second(id,username,content,retweet,flag) VALUES(%s,%s,%s,%s,%s)"
     cur.executemany(sql, list)
     conn.commit()
+
 
 spider_craw()

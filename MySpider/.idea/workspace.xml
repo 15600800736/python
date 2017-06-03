@@ -10,9 +10,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MySpider$MySpider__1_.coverage" NAME="MySpider (1) Coverage Results" MODIFIED="1496463008129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
-    <SUITE FILE_PATH="coverage/MySpider$algothrim.coverage" NAME="algothrim Coverage Results" MODIFIED="1496453040990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algothrim" />
+    <SUITE FILE_PATH="coverage/MySpider$MySpider__1_.coverage" NAME="MySpider (1) Coverage Results" MODIFIED="1496466600530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
+    <SUITE FILE_PATH="coverage/MySpider$algothrim.coverage" NAME="algothrim Coverage Results" MODIFIED="1496476200608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algothrim" />
     <SUITE FILE_PATH="coverage/MySpider$MySpider.coverage" NAME="MySpider Coverage Results" MODIFIED="1496386913910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MySpider$main.coverage" NAME="main Coverage Results" MODIFIED="1496472126591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MySpider$Block.coverage" NAME="Block Coverage Results" MODIFIED="1496459595313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algothrim" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -21,11 +22,11 @@
       <file leaf-file-name="MySpider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/network/MySpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding>
                 <element signature="e#17#31#0" expanded="true" />
-                <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+                <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
               </folding>
             </state>
           </provider>
@@ -34,21 +35,24 @@
       <file leaf-file-name="algothrim.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algothrim/algothrim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="284">
+              <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
               <folding>
                 <element signature="e#18#32#0" expanded="true" />
-                <marker date="1496453040866" expanded="true" signature="269:288" ph="SELECT * FRO... datas" />
+                <marker date="1496476200521" expanded="true" signature="334:353" ph="SELECT * FRO... datas" />
+                <marker date="1496476200521" expanded="true" signature="334:375" ph="SELECT * FRO... datas_second" />
+                <marker date="1496476200521" expanded="true" signature="334:397" ph="SELECT * FRO... datas_second" />
+                <marker date="1496476200521" expanded="true" signature="713:777" ph="SELECT * FRO... datas_second" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edge.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algothrim/Edge.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,18 +61,8 @@
       <file leaf-file-name="Block.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algothrim/Block.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algothrim/Node.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="234">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,10 +97,11 @@
         <option value="$PROJECT_DIR$/Node.py" />
         <option value="$PROJECT_DIR$/algothrim/Node.py" />
         <option value="$PROJECT_DIR$/network/__init__.py" />
-        <option value="$PROJECT_DIR$/algothrim/algothrim.py" />
         <option value="$PROJECT_DIR$/algothrim/Edge.py" />
-        <option value="$PROJECT_DIR$/algothrim/Block.py" />
         <option value="$PROJECT_DIR$/network/MySpider.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/algothrim/Block.py" />
+        <option value="$PROJECT_DIR$/algothrim/algothrim.py" />
       </list>
     </option>
   </component>
@@ -137,9 +132,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MySpider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MySpider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MySpider" />
@@ -170,7 +175,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MySpider (1)">
+  <component name="RunManager" selected="Python.algothrim">
     <configuration default="false" name="MySpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,6 +273,25 @@
       <module name="MySpider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/MySpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MySpider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,18 +445,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.MySpider" />
       <item index="1" class="java.lang.String" itemvalue="Python.algothrim" />
       <item index="2" class="java.lang.String" itemvalue="Python.Block" />
       <item index="3" class="java.lang.String" itemvalue="Python.MySpider (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.MySpider (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Block" />
-        <item index="2" class="java.lang.String" itemvalue="Python.algothrim" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MySpider" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.algothrim" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.MySpider (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Block" />
+        <item index="4" class="java.lang.String" itemvalue="Python.MySpider" />
       </list>
     </recent_temporary>
   </component>
@@ -456,13 +482,13 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12526652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12633263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47464502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.62170386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -506,18 +532,74 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algothrim/algothrim.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/network/MySpider.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#31#0" expanded="true" />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algothrim/algothrim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#18#32#0" expanded="true" />
+            <marker date="1496476200521" expanded="true" signature="334:353" ph="SELECT * FRO... datas" />
+            <marker date="1496476200521" expanded="true" signature="334:375" ph="SELECT * FRO... datas_second" />
+            <marker date="1496476200521" expanded="true" signature="334:397" ph="SELECT * FRO... datas_second" />
+            <marker date="1496476200521" expanded="true" signature="713:777" ph="SELECT * FRO... datas_second" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algothrim/Edge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algothrim/Block.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algothrim/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/MySpider.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -552,7 +634,10 @@
           <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#18#32#0" expanded="true" />
-            <marker date="1496453040866" expanded="true" signature="269:288" ph="SELECT * FRO... datas" />
+            <marker date="1496476200521" expanded="true" signature="334:353" ph="SELECT * FRO... datas" />
+            <marker date="1496476200521" expanded="true" signature="334:375" ph="SELECT * FRO... datas_second" />
+            <marker date="1496476200521" expanded="true" signature="334:397" ph="SELECT * FRO... datas_second" />
+            <marker date="1496476200521" expanded="true" signature="713:777" ph="SELECT * FRO... datas_second" />
           </folding>
         </state>
       </provider>
@@ -563,7 +648,7 @@
           <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -598,7 +683,10 @@
           <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#18#32#0" expanded="true" />
-            <marker date="1496453040866" expanded="true" signature="269:288" ph="SELECT * FRO... datas" />
+            <marker date="1496476200521" expanded="true" signature="334:353" ph="SELECT * FRO... datas" />
+            <marker date="1496476200521" expanded="true" signature="334:375" ph="SELECT * FRO... datas_second" />
+            <marker date="1496476200521" expanded="true" signature="334:397" ph="SELECT * FRO... datas_second" />
+            <marker date="1496476200521" expanded="true" signature="713:777" ph="SELECT * FRO... datas_second" />
           </folding>
         </state>
       </provider>
@@ -609,7 +697,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -643,7 +731,7 @@
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -670,7 +758,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -681,7 +769,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -692,7 +780,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -703,7 +791,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -714,7 +802,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -725,7 +813,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -736,7 +824,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
@@ -772,38 +860,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algothrim/Edge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="194">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algothrim/Block.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algothrim/algothrim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="284">
+          <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
           <folding>
             <element signature="e#18#32#0" expanded="true" />
-            <marker date="1496453040866" expanded="true" signature="269:288" ph="SELECT * FRO... datas" />
+            <marker date="1496476200521" expanded="true" signature="334:353" ph="SELECT * FRO... datas" />
+            <marker date="1496476200521" expanded="true" signature="334:375" ph="SELECT * FRO... datas_second" />
+            <marker date="1496476200521" expanded="true" signature="334:397" ph="SELECT * FRO... datas_second" />
+            <marker date="1496476200521" expanded="true" signature="713:777" ph="SELECT * FRO... datas_second" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algothrim/Block.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/network/MySpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="104">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding>
             <element signature="e#17#31#0" expanded="true" />
-            <marker date="1496463512762" expanded="true" signature="4076:4149" ph="INSERT INTO datas... " />
+            <marker date="1496468378798" expanded="true" signature="4086:4167" ph="INSERT INTO datas... " />
           </folding>
         </state>
       </provider>
