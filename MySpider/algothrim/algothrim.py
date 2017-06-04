@@ -28,18 +28,6 @@ def fetch_data():
         block.flag = x[4]
         supporters.append(block)
     sql = "SELECT * FROM datas_second WHERE flag = -1 ORDER BY retweet DESC"
-    cur.execute(sql)
-    blocks = cur.fetchall()
-    for x in blocks:
-        block.id = x[0]
-        block.username = x[1].decode("utf-8")
-        block.content = x[2].decode("utf-8")
-        block.retweet = x[3]
-        block.flag = x[4]
-        againsters.append(block)
-
-    set_range(againsters)
-    set_range(supporters)
 
 def set_range(blocks):
     i = -1
